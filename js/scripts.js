@@ -8,7 +8,8 @@ var newName ='Marian';
 
 if (allNames.indexOf(newName) === -1) {
 	console.log('Nie ma Mariana w tabeli');
-} else (allNames.push('Marian'));
+	allNames.push('Marian');
+}
 
 var x = allNames.push('Marian');
 console.log(x);
