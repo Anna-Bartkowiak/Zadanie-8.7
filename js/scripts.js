@@ -11,6 +11,4 @@ if (allNames.indexOf(newName) === -1) {
 	allNames.push('Marian');
 }
 
-var x = allNames.push('Marian');
-console.log(x);
 console.log('Zmienna allNames: ' + allNames);
